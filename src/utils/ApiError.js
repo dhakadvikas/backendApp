@@ -1,5 +1,5 @@
 class ApiError extends Error {
-    cconstructor(
+    constructor(
         statusCode,
         message="something went wrong",
         errors = [],
